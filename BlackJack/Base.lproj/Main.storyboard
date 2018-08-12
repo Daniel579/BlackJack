@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlackJack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DESK" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-We-9X3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="cnY-RN-KM4" userLabel="P0">
+                                <rect key="frame" x="73" y="489" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="ip3-PT-buD" userLabel="P1">
+                                <rect key="frame" x="105" y="489" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="UFW-tH-54l" userLabel="P2">
+                                <rect key="frame" x="140" y="489" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="o3o-sw-eG9" userLabel="P3">
+                                <rect key="frame" x="174" y="489" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="SjY-Ym-3Yn" userLabel="P4">
+                                <rect key="frame" x="209" y="489" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="Ypj-3N-2bG" userLabel="P5">
+                                <rect key="frame" x="241" y="489" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="QA5-yb-5OA" userLabel="B0">
+                                <rect key="frame" x="73" y="42" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="Rpd-Np-SWe" userLabel="B1">
+                                <rect key="frame" x="105" y="42" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="vBi-X7-mnQ" userLabel="B2">
+                                <rect key="frame" x="140" y="42" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="ZET-RS-uMB" userLabel="B3">
+                                <rect key="frame" x="174" y="42" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="JY1-oq-2mT" userLabel="B4">
+                                <rect key="frame" x="209" y="42" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PokerBack" translatesAutoresizingMaskIntoConstraints="NO" id="5xn-do-rwb" userLabel="B5">
+                                <rect key="frame" x="241" y="42" width="93" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDR-T9-8iN">
+                                <rect key="frame" x="73" y="489" width="40" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="LookCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3uz-Tk-cNq"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fbu-a6-GOx">
+                                <rect key="frame" x="150" y="377" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="NSI-oe-r4V">
+                                <rect key="frame" x="166" y="330" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="BetAdjustment:" destination="BYZ-38-t0r" eventType="valueChanged" id="nTL-V4-I42"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wb7-So-KHk">
+                                <rect key="frame" x="38" y="334" width="109" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="賭注" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3r-vi-g1W">
+                                <rect key="frame" x="267" y="338" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HVv-RU-NP9">
+                                <rect key="frame" x="191" y="422" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="分數" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1N-Ol-gb7">
+                                <rect key="frame" x="150" y="427" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tdj-1K-Xhv">
+                                <rect key="frame" x="181" y="218" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="分數" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISc-ER-ZPP">
+                                <rect key="frame" x="140" y="223" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="as3-AF-Lkc">
+                                <rect key="frame" x="20" y="276" width="79" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="發牌" image="發牌"/>
+                                <connections>
+                                    <action selector="Deal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VZ6-RV-Z6g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v53-WJ-VKn">
+                                <rect key="frame" x="107" y="276" width="79" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="要牌" image="要牌"/>
+                                <connections>
+                                    <action selector="Hit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlX-Xd-ZJ0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHC-a1-8XD">
+                                <rect key="frame" x="191" y="276" width="79" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="開牌" image="開牌"/>
+                                <connections>
+                                    <action selector="OpenCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4rI-Y6-mBs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9L-nb-ybx">
+                                <rect key="frame" x="273" y="276" width="79" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="下一局" image="再一局"/>
+                                <connections>
+                                    <action selector="NewGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IAV-BI-Huf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="BankScoreTextField" destination="tdj-1K-Xhv" id="abO-eJ-5Ui"/>
+                        <outlet property="DealButton" destination="as3-AF-Lkc" id="wAp-HW-gk9"/>
+                        <outlet property="HitButton" destination="v53-WJ-VKn" id="Ko4-CN-Ay4"/>
+                        <outlet property="MoneyLabel" destination="Wb7-So-KHk" id="SVB-qa-zGN"/>
+                        <outlet property="MoneySlider" destination="NSI-oe-r4V" id="o31-ul-jRV"/>
+                        <outlet property="NewGameButton" destination="N9L-nb-ybx" id="h4y-j7-tN7"/>
+                        <outlet property="OpenCardButton" destination="nHC-a1-8XD" id="mWx-hO-B9m"/>
+                        <outlet property="PlayerMoneyTextField" destination="Fbu-a6-GOx" id="ARQ-ZT-QgS"/>
+                        <outlet property="PlayerScoreTextField" destination="HVv-RU-NP9" id="who-Jw-F8B"/>
+                        <outletCollection property="PlayerCardColletion" destination="cnY-RN-KM4" collectionClass="NSMutableArray" id="lT0-Mz-tu1"/>
+                        <outletCollection property="PlayerCardColletion" destination="ip3-PT-buD" collectionClass="NSMutableArray" id="dzb-h1-Awq"/>
+                        <outletCollection property="PlayerCardColletion" destination="UFW-tH-54l" collectionClass="NSMutableArray" id="mDo-3s-cqY"/>
+                        <outletCollection property="PlayerCardColletion" destination="o3o-sw-eG9" collectionClass="NSMutableArray" id="lUn-kE-q7i"/>
+                        <outletCollection property="PlayerCardColletion" destination="SjY-Ym-3Yn" collectionClass="NSMutableArray" id="Pb4-AG-KRR"/>
+                        <outletCollection property="BankCardCollection" destination="QA5-yb-5OA" collectionClass="NSMutableArray" id="DE6-Ts-JsX"/>
+                        <outletCollection property="BankCardCollection" destination="Rpd-Np-SWe" collectionClass="NSMutableArray" id="dKV-Qm-y0n"/>
+                        <outletCollection property="BankCardCollection" destination="vBi-X7-mnQ" collectionClass="NSMutableArray" id="fHL-4P-tWc"/>
+                        <outletCollection property="BankCardCollection" destination="ZET-RS-uMB" collectionClass="NSMutableArray" id="nyc-gV-bSP"/>
+                        <outletCollection property="BankCardCollection" destination="JY1-oq-2mT" collectionClass="NSMutableArray" id="4S2-8D-ACR"/>
+                        <outletCollection property="PlayerCardColletion" destination="Ypj-3N-2bG" collectionClass="NSMutableArray" id="FEd-5w-El2"/>
+                        <outletCollection property="BankCardCollection" destination="5xn-do-rwb" collectionClass="NSMutableArray" id="xa8-f8-k4v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DESK" width="496" height="502"/>
+        <image name="PokerBack" width="562" height="814"/>
+        <image name="再一局" width="412" height="214"/>
+        <image name="發牌" width="412" height="214"/>
+        <image name="要牌" width="416" height="210"/>
+        <image name="開牌" width="412" height="214"/>
+    </resources>
+</document>
